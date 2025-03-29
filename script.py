@@ -9,7 +9,7 @@ def find_cube_pairs(target): # added missing colon
     return solutions # sol -> solutions
 
 pairs = find_cube_pairs(1729) # comma is wrong 
-print("Valid cube pairs for 1728:") # removed comma again at end, changed printf to print
+print("Valid cube pairs for 1729:") # removed comma again at end, changed printf to print, 1728 -> 1729
 for a, b in pairs: # changed pair to pairs and added : for loop
     print(f" → {a}³ + {b}³ = {a**3} + {b**3} = 1729") # 1728 changed to 1729, a**@ and b**2 changed to a**3 and b**3
 # changed printf to print
